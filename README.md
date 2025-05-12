@@ -24,9 +24,18 @@ Custom file system built in C using block-level I/O and a FAT-style volume, with
 ## Shell Commands
 
 Supported commands:
-- `ls`, `cd`, `md`, `pwd`,
-- `touch`, `cat`, `rm`, `cp`,
-- `mv`, `cp2fs`, `cp2l`, `help`
+- `ls` – list directory contents
+- `cd <dir>` – change current directory
+- `md <dir>` – make a new directory
+- `pwd` – print current directory
+- `touch <file>` – create an empty file
+- `cat <file>` – display file contents
+- `rm <file>` – delete a file
+- `cp <src> <dest>` – copy a file
+- `mv <src> <dest>` – move/rename a file
+- `cp2fs <host_file>` – copy file from host into virtual file system
+- `cp2l <fs_file>` – copy file from virtual file system to host
+- `help` – list available commands
 
 ---
 
